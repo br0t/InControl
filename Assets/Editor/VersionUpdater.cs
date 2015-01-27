@@ -28,7 +28,7 @@ namespace InControl
 
 		static void UpdateVersion()
 		{
-			string versionPath = "Assets/InControl/Source/VersionInfo.cs";
+			string versionPath = "Assets/InControl/Assets/InControl/Source/VersionInfo.cs";
 			string versionText = GetFileContents( versionPath );
 			if (versionText != null)
 			{
